@@ -1,4 +1,54 @@
-.nav-phones {
+.phones {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 900px;
+    height: 100px;
+}
+
+.phones>input{
+    display: none;
+}
+
+.tab-nav-1:hover, .tab-nav-1:checked {
+    background-color: aqua;
+}
+
+label {
+    width: 60px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 0 5% 15% 0;
+    text-align: center;
+    background-color: aqua;
+}
+
+.models-iphone {
+
+    display: none;
+}
+
+#tab-nav-1:checked ~ .models-iphone {
+
+    display: flex;
+    margin-top: 100px;
+
+  width:900px;
+    height:100px;
+    position:absolute;
+    /* flex-wrap: wrap; */
+}
+
+/* .phones-label {
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 5%;
+} */
+
+/* .nav-phones {
     
     display: flex;
     flex-wrap: wrap;
@@ -22,12 +72,4 @@ li {
 
 .input-show:checked~.nav-models{
     display: flex;
-}
-
-.input-sort:checked~.sort-list {
-    flex-direction: column-reverse;
-}
-
-.input-sort {
-    display: none;
-}
+} */
