@@ -1,0 +1,30 @@
+.models-iphone {
+    display: none;
+}
+
+.phones {
+    display: flex;
+}
+
+.phones>li>a>input {
+    /* display: none; */
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+a {
+    border: 2px solid black;
+    border-radius: 20%;
+    text-decoration: none;
+    margin: 0 25px 25px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#iphone-ref .models-iphone:nth-child(1) {
+    display: flex;
+}

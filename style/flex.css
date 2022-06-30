@@ -38,38 +38,5 @@ label {
   width:900px;
     height:100px;
     position:absolute;
-    /* flex-wrap: wrap; */
-}
-
-/* .phones-label {
-    border: 2px solid black;
-    border-radius: 10%;
-    padding: 10px;
-    margin: 5%;
-} */
-
-/* .nav-phones {
-    
-    display: flex;
     flex-wrap: wrap;
-    list-style: none;
 }
-
-li {
-    padding: 2%;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-right: 10%;
-}
-
-.nav-models {
-    display: none;
-}
-
-.input-show {
-    display: none;
-}
-
-.input-show:checked~.nav-models{
-    display: flex;
-} */

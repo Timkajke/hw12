@@ -1,0 +1,52 @@
+.phones {
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    width: 100px;
+    height: 30px;
+    margin: 0 25px 5px 0;
+}
+
+a {
+
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 10%;
+
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+a:focus {
+    color: brown;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.models {
+    display: none;
+}
+
+.iphone-ref:focus ~ .models {
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.samsung-ref:focus ~ .models {
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -150px;
+}
