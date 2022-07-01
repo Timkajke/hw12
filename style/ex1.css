@@ -29,6 +29,7 @@ a:hover {
 
 a:focus {
     color: brown;
+    background-color: bisque;
 }
 
 .models {
